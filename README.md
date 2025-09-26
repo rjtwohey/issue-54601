@@ -9,11 +9,11 @@ A simple React application built with Ionic and React Router for navigation betw
 - **Ionic Components**: Uses Ionic React components for a native mobile feel
 - **React Router**: Client-side routing for seamless navigation
 
-## Dependencies
+## Dependencies (Updated)
 
-- React 17.0.1
-- Ionic React 6.7.5
-- Ionic React Router 6.7.5
+- React 17.0.2
+- Ionic React 8.7.5
+- Ionic React Router 8.7.5
 - React Router 5.2.0
 - Ionicons 5.4.0
 
