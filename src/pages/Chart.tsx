@@ -33,11 +33,11 @@ const Chart: React.FC = () => {
   });
 
   const handleGoBack = () => {
-    history.push("/tabs");
+    history.replace("/tabs");
   };
 
   const handleGoToHome = () => {
-    history.push("/");
+    history.replace("/");
   };
 
   return (

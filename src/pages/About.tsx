@@ -19,11 +19,11 @@ const About: React.FC = () => {
   const history = useHistory();
 
   const handleClick = () => {
-    history.push('/');
+    history.replace('/');
   };
 
   const handleClickContact = () => {
-    history.push('/contact');
+    history.replace('/contact');
   };
 
   useEffect(() => {

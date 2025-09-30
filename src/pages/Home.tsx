@@ -22,15 +22,15 @@ const Home: React.FC = () => {
   const dispatch = useDispatch();
 
   const handleClick = () => {
-    history.push('/about');
+    history.replace('/about');
   };
 
   const handleClickTabs = () => {
-    history.push('/tabs');
+    history.replace('/tabs');
   };
   
   const handleClickTest = () => {
-    history.push('/test');
+    history.replace('/test');
   };
 
   const handleUpdateReduxState = () => {

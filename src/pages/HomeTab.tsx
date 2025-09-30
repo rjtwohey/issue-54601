@@ -38,15 +38,15 @@ const HomeTab: React.FC = () => {
   });
 
   const handleClickHome = () => {
-    history.push("/");
+    history.replace("/");
   };
 
   const handleClickAbout = () => {
-    history.push("/about");
+    history.replace("/about");
   };
 
   const handleClickChart = () => {
-    history.push("/chart");
+    history.replace("/chart");
   };
 
   return (
